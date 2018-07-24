@@ -1,0 +1,28 @@
+{
+  "name": "aim-documentation",
+  "version": "1.0.0",
+  "description": "Documentation for the Alexa Inventory Management ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penoutlet/AIM-Documentation.git"
+  },
+  "keywords": [
+    "Alexa",
+    "Javascript",
+    "node"
+  ],
+  "author": "Sam Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penoutlet/AIM-Documentation/issues"
+  },
+  "homepage": "https://github.com/penoutlet/AIM-Documentation#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
