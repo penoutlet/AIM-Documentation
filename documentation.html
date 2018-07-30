@@ -1,0 +1,166 @@
+<html><head><title> AIM Documentation </title><meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel='stylesheet' type='text/css' href='style.css'>
+
+</head>
+<body>
+
+<div class='container'>
+<div id='menu'>
+  <ul>
+  	<li><a href='newindex.html'> What is AIM? </a></li>
+    <li><a href="documentation.html"> Documentation </a></li>
+    <li><a href="example.html"> Example </a></li>
+  </ul>
+  </div>
+<h1> AIM Docs </h1> <br> <br>
+
+<!-- <div class='opening-aim'>
+<h2>Opening AIM</h2>
+
+<div class='samplecommands'>
+<table>
+<thead>Commands
+</thead>
+<tbody>
+<tr><td>"Alexa, open AIM."</td></tr>	
+</tbody>
+</table>
+</div> -->
+<br>
+<h2> A Glossary for AIM </h2>
+	<p> This page is where you go to to learn about how Alexa listens and to find out all the different ways you can say "add to cart," "view cart", "remove item", and "finalize order."  
+	
+	<!-- <ul><li>Adding to your cart</li>
+	<li>Viewing your cart</li>
+	<li>Removing from your cart</li>
+	<li>Finalizing your order.</li>
+	</ul>
+	Scroll down for all the possible ways you can add to cart, view your cart, remove items, and finalize your orders. -->
+</p>
+<h3> Is Alexa Listening? </h3>
+<p>To start AIM, say "Alexa, open AIM." This starts the AIM application and prompts Alexa to listen for commands. </p>
+<div>
+<ul list-style-type:disc>
+<li>You must get Alexa to listen with the command "Alexa, open AIM" prior to issuing any other command.</li> 
+<li>Alexa listens for 7 seconds before going dormant. Issue your command within this time limit to expand the time limit by an additional 7 seconds.</li> 
+<li>Alexa can listen for a maximum of 14 seconds.</li>
+</ul>     
+
+</div>
+<hr>
+<div class='adding-to-cart'>
+<h2>Adding to Your Cart</h2>
+
+<table>
+<thead>
+<tr>Commands
+</tr>
+<br>
+</thead>
+<tbody>
+<tr>
+<td>
+"Add to cart." 
+</td>
+</tr>
+
+<tr><td>"Add item number 3."</td>
+</tr>
+
+<tr><td>"Add an item to the cart."</td>
+</tr>
+
+<tr><td>"Add an item to my cart."</td>
+</tr>
+</tbody>
+</table>
+<br>
+<button id='add-description-button' class='btn-warning'> Show/Hide Brief Description </button>
+<p class='task-description' id='add-description'>
+	<!-- <button id='hide-add-info-button'>Hide Description</button> -->
+Issue one of the above commands to add an item to your cart. Note, you can add the item with two separate commands, or with one. 
+The command “Alexa, add to cart,” will prompt Alexa to ask you which item to add. The command “Alexa, add item number [item number] to the cart.” will complete the task in one step. 
+</p>
+</div>
+<hr>
+<div class='viewing-cart'>
+<h2>Viewing Your Cart</h2>
+<p>
+<table>
+	<thead>
+		Commands
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+			"Display cart."
+			</td>
+		</tr>
+		<tr><td>"Show cart."</td></tr>
+		<tr><td>"Show order."</td></tr>
+		<tr><td>"Display order."</td></tr>
+		<tr><td>"What’s in the cart?"</td></tr>
+		<tr><td>"What is my order?"</td></tr>
+		<tr><td>"What's in my cart?</td></tr>
+	</tbody>
+</table>
+<br>
+
+<button id='display-description-button' class='btn-warning'> Show/Hide Brief Description </button>
+		
+	<p class='task-description' id='display-description'> 
+To "view" your cart, issue one of the above commands to Alexa. For example, saying 'Show cart" once Alexa has begun listening will prompt Alexa to read aloud the contents of your cart. 
+	 </p>
+
+</p>
+</div>
+<hr>
+
+<h2>Removing from Your Cart</h2>
+
+<table><thead>Commands</thead>
+<tbody>
+<tr><td>"Remove an item"
+</td></tr>
+<tr><td>"Remove item number 3"</td></tr>
+<tr><td>"Delete an item."</td></tr>
+<tr><td>"Delete item number 3."</td></tr>
+
+</tbody></table>
+<br>
+
+<button id='remove-description-button' class='btn-warning'> Show/Hide Brief Description </button>
+<p class='task-description' id='remove-description'>
+To remove an item from your cart, issue one of the above commands. Saying “Alexa, remove an item” will prompt Alexa to ask you which item to remove. To remove an item without this prompt, say “Alexa, remove item number [item number].”
+</p>
+<br>
+<hr>
+
+<h2>Finalizing Your Order</h2>
+<table><thead>Commands</thead> <tbody> 
+<tr><td>"Finish order."</td></tr> 
+<tr><td>"Finalize order."</td></tr> 
+<tr><td>"Complete order."</td></tr> 
+<tr><td>"Order finished."</td></tr> 
+<tr><td>"We're done."</td></tr> 
+
+</tbody></table>
+
+<br>
+
+<button id='finalize-description-button' class='btn-warning'> Show/Hide Brief Description </button>
+
+<p class='task-description' id='finalize-description'>
+Issue one of the above commands to finish your order. This will trigger Alexa to send an email to you. Open this email to get a link to your Amazon cart. From your amazon cart, you can edit the cart and place your order. 
+</p>
+
+</div> 
+<!-- container -->
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src='js.js'></script>
+</body>
+</html>
