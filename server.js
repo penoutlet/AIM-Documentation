@@ -3,10 +3,11 @@ var app = express()
 var port = 3000 || process.env.port
 
 app.get('/', function(req,res){
-	res.sendfile('index.html')
+	res.sendFile('index.html')
 })
 app.get('/example',function(req,res){
-	res.sendfile('example.html')
+	// res.sendFile('example.html')
+	res.send('Under construction')
 })
 
 app.listen(port, function(){

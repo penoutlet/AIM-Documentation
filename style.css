@@ -11,7 +11,7 @@ font-size: 1.0em;
 }
 #menu ul{
   /* text-align: center; */
-
+background-color: #98FB98;
 margin:0;
 padding:0;
 }
@@ -22,7 +22,7 @@ list-style: none;
 .container li a {
 float: left;
 padding: 10px 30px 10px 30px;
-background-color: #cccc99;
+background-color: 	#AFEEEE;
 border-right:1px solid #000000;
 } 
 h1 {float:right;}
