@@ -3,7 +3,7 @@ var app = express()
 var port = 3000 || process.env.port
 app.use(express.static('public'));
 app.get('/', function(req,res){
-	res.sendFile(__dirname + 'index.html')
+	res.sendFile('index.html')
 })
 app.get('/example',function(req,res){
 	res.sendFile(__dirname + '/public/example.html')
