@@ -6,16 +6,33 @@
 <body>
 
 <div class='container'>
-<div id='menu'>
+<img src="alexa.jpg">
+<h1> AIM Docs </h1> <br> <br>
+
+<!-- <div id='menu'>
   <ul>
     <li><a href='index.html'> What is AIM? </a></li>
     <li><a href="documentation.html"> Documentation </a></li>
     <li><a href="example.html"> Example </a></li>
   </ul>
-  </div>
-<h1> AIM Docs </h1> <br> <br>
+  </div> -->
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">About</a>
+  <a href="documentation.html">Documentation</a>
+  <a href="example.html">Example</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<div id='menu'>
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <button onclick="openNav()" type="button" class="btn btn-primary btn-lg btn3d"><span class="glyphicon glyphicon-cloud" id='nav-button'></span> Navigation </button>
+        </div>
+<br>
+
 <h2>What is AIM?</h2>
-<p>
+<br><br>
+<p class='text'>
 A.I.M. (AIM) is short for the Alexa Inventory Management application, developed by Dijatek LLC, and the Whittaker Group Inc. Like your smart phone, Alexa is an interface for interacting with applications. Just as you can open apps on your phone, you can open AIM with Alexa. AIM is an application developed to allow Alexa owners to shop and place orders using Alexa. The documentation for AIM lives on this site.  
 </p>
 

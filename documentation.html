@@ -6,14 +6,30 @@
 <body>
 
 <div class='container'>
-<div id='menu'>
+<img src="alexa.jpg">
+<h1> AIM Docs </h1> <br> <br>
+
+<!-- <div id='menu'>
   <ul>
   	<li><a href='index.html'> What is AIM? </a></li>
     <li><a href="documentation.html"> Documentation </a></li>
     <li><a href="example.html"> Example </a></li>
   </ul>
-  </div>
-<h1> AIM Docs </h1> <br> <br>
+  </div> -->
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">About</a>
+  <a href="documentation.html">Documentation</a>
+  <a href="example.html">Example</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<div id='menu'>
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <button onclick="openNav()" type="button" class="btn btn-primary btn-lg btn3d"><span class="glyphicon glyphicon-cloud" id='nav-button'></span> Navigation </button>
+
+</div>
+
 
 <!-- <div class='opening-aim'>
 <h2>Opening AIM</h2>
@@ -42,8 +58,9 @@
 <hr>
 <div class='adding-to-cart'>
 <h2>Adding to Your Cart</h2>
-
-<table>
+<br><br>
+<div class='command-table'>
+<table class='command-table'>
 <thead>
 <tr>Commands
 </tr>
@@ -55,7 +72,6 @@
 "Add to cart." 
 </td>
 </tr>
-
 <tr><td>"Add item number 3."</td>
 </tr>
 
@@ -66,6 +82,7 @@
 </tr>
 </tbody>
 </table>
+</div>
 <br>
 <button id='add-description-button' class='btn-warning'> Show/Hide Brief Description </button>
 <p class='task-description' id='add-description'>
@@ -77,6 +94,7 @@ The command “Alexa, add to cart,” will prompt Alexa to ask you which item to
 <hr>
 <div class='viewing-cart'>
 <h2>Viewing Your Cart</h2>
+<br><br>
 <p>
 <table>
 	<thead>
@@ -109,7 +127,7 @@ To "view" your cart, issue one of the above commands to Alexa. For example, sayi
 <hr>
 
 <h2>Removing from Your Cart</h2>
-
+<br><br>
 <table><thead>Commands</thead>
 <tbody>
 <tr><td>"Remove an item"
@@ -129,6 +147,7 @@ To remove an item from your cart, issue one of the above commands. Saying “Ale
 <hr>
 
 <h2>Finalizing Your Order</h2>
+<br> <br>
 <table><thead>Commands</thead> <tbody> 
 <tr><td>"Finish order."</td></tr> 
 <tr><td>"Finalize order."</td></tr> 
